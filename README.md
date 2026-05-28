@@ -17,3 +17,23 @@ After publishing my GitHub Pages site, the link will be added here:
 ## File and Folder Organization
 
 The files and folders in this repository are organized as follows:
+
+
+## Student Information
+
+- Name: 廖浩均
+- Student ID:1121530
+- GitHub Username: LiaoHaoChun
+- Course: CS351
+
+## Repository Purpose
+
+This repository is used for storing my CS351 course assignments, documentation, Markdown reports, and related project files.
+
+## Repository Structure
+
+```text
+11402_CS351/
+├── README.md
+├── AssignmentI/
+└── AssignmentII/
