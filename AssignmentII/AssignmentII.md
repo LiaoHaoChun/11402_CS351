@@ -15,7 +15,7 @@
 ### 1.1 What AI-assisted software development is.
 AI-assisted software development refers to the process in which engineers use generative artificial intelligence as a collaborative partner throughout the software development life cycle.
 
-### 1.2Why clear requirements are important when using AI tools.
+### 1.2 Why clear requirements are important when using AI tools.
 The quality of AI-generated output depends heavily on the prompts provided by the user. When a prompt is vague or unclear, the AI may produce responses that contain hallucinations or inaccurate information. This may require users to spend additional time verifying the correctness of the results or engaging in multiple rounds of revision with the AI.
 
 ### 1.3 Why SDD, BDD, and TDD are useful in the AI era.
@@ -296,9 +296,33 @@ The system detects that the Midterm score (-10) is below the minimum allowed lim
 
 ## 9.Reflection
 
+### 1.Which approach is easiest for you to understand: SDD, BDD, or TDD? Why?
+- I often use AI as a copilot when I’m coding, and I have encountered many situations where I kept going back and forth with the AI but still could not get the result I wanted. This made me realize that if I can provide clearer and more structured information, such as requirements, design decisions, and expected behavior, the AI is more likely to generate useful results. In this sense, the concept of SDD makes sense to me because it helps define the system more clearly before implementation. If I have the opportunity, I would like to learn more about how SDD is used in real software development.
 
+### 2.Which approach is most useful when working with AI coding tools? Why?
+- I think SDD would be the most useful approach when working with AI coding tools. For me, using AI as a copilot means that I describe what I want to the AI, and the AI responds to my request. In this process, SDD can play an important role in making the communication smoother and more effective.
+
+### 3.How can SDD help reduce unclear AI prompts?
+- SDD can make this process smoother because it defines the requirements, system design, expected behavior, constraints, and other important details before implementation. With this structured information, AI coding tools can better understand the task and generate code or suggestions that are closer to what I actually need.
+
+### 4.How can BDD help describe user expectations?
+- BDD helps describe user expectations by using clear examples written from the user’s perspective. It focuses on how the system should behave in specific situations, often using the format Given–When–Then. This makes requirements easier to understand for both developers and non-technical people, and helps ensure the final software matches what users actually need.
+
+### 5.How can TDD help check whether AI-generated code is correct?
+- TDD can help check whether AI-generated code is correct by requiring tests to be written before or alongside the code. After the AI generates code, developers can run these tests to see if the code meets the expected behavior. If the code passes the tests, it is more likely to be correct; if it fails, the test results show what needs to be fixed.
+
+### 6.If you use AI tools in future software projects, how would you combine SDD, BDD, and TDD?
+- I would combine SDD, BDD, and TDD as a structured workflow when using AI tools.
+First, I would use SDD to clearly define the system design, requirements, constraints, and expected features. Then, I would use BDD to describe user expectations with clear scenarios, such as Given–When–Then. Finally, I would use TDD to write tests and check whether the AI-generated code works correctly.
+Together, SDD helps guide the AI, BDD helps describe what users expect, and TDD helps verify the correctness of the code.
 
 ---
 
 ## 10.References / AI Tool Usage
+- ChatGPT was used to help me translate my answers and check whether they were reasonable.
+- Gemini was used to help me understand the three approaches.
+- Reference website:
+    - https://agile3uncles.com/2025/10/08/sdd-bdd-tdd-kiro/
+    - https://ithelp.ithome.com.tw/articles/10381105
+
 
